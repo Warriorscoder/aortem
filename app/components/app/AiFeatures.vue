@@ -1,70 +1,147 @@
 <template>
-     <section class="py-16 sm:py-24 bg-brand-purple text-white relative">
-        <!-- Background image overlay -->
-        <div class="absolute inset-0 bg-black opacity-50"></div>
-        
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
-          <span class="bg-brand-yellow text-brand-purple-dark text-base font-bold px-4 py-1 rounded-full">
-            Coming Soon
-          </span>
-          <h2 class="mt-6 text-4xl sm:text-5xl font-extrabold">
-            DartCodeAI That Actually Changes Flagging
-          </h2>
-          
-          <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
-            <!-- AI Feature 1 -->
-            <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-              <div class="bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                <!-- Icon Placeholder -->
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.363-.44A2 2 0 0115 12.5v-1.5a2 2 0 012-2h.08a2 2 0 001.716-1.053l.812-1.355a2 2 0 01-1.716-3.053l-.812 1.355A2 2 0 0015.08 8H15a2 2 0 00-2 2v1.5a2 2 0 01-1.045 1.773l-2.363.44a2 2 0 00-1.022.547l-2.028 3.042a2 2 0 00.103 2.53l2.363 3.545a2 2 0 001.716.947h4.056a2 2 0 001.716-.947l2.363-3.545a2 2 0 00.103-2.53l-2.028-3.042z"></path></svg>
-              </div>
-              <h3 class="text-xl font-bold">AutoFlag AI</h3>
-              <p class="mt-2 text-gray-200">Create new flags just by typing what you need. The AI names it, sets rules, and configures targeting for you.</p>
-            </div>
-            <!-- AI Feature 2 -->
-            <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-              <div class="bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                <!-- Icon Placeholder -->
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
-              </div>
-              <h3 class="text-xl font-bold">SmartRamp AI</h3>
-              <p class="mt-2 text-gray-200">Rollouts that adjust themselves. AI expands, pauses, or rolls back based on real-time metrics.</p>
-            </div>
-            <!-- AI Feature 3 -->
-            <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-              <div class="bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                <!-- Icon Placeholder -->
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-              </div>
-              <h3 class="text-xl font-bold">ExplainFlags AI</h3>
-              <p class="mt-2 text-gray-200">Understand issues instantly with AI-generated, plain-language insights tied to your flags.</p>
-            </div>
-            <!-- AI Feature 4 -->
-            <div class="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-              <div class="bg-white/20 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                <!-- Icon Placeholder -->
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-2.356M17 20H7m10 0v-2c0-.653-.281-1.27-.743-1.69.522-.042 1.058-.163 1.57-.345a4 4 0 10-6.654 0c.512.182 1.048.303 1.57.345-.462.42-.743 1.037-.743 1.69v2m6-12a4 4 0 11-8 0 4 4 0 018 0zM7 20v-2c0-.653.281-1.27.743-1.69-.522-.042-1.058-.163-1.57-.345a4 4 0 10-6.654 0C.412 15.86.948 15.98 1.46 16.16c.462.42.743 1.037.743 1.69v2H7z"></path></svg>
-              </div>
-              <h3 class="text-xl font-bold">AutoSegment AI</h3>
-              <p class="mt-2 text-gray-200">Target the right users automatically. AI builds segments from live behavior—no manual rules.</p>
-            </div>
-          </div>
-          
-          <h3 class="mt-16 text-3xl font-bold text-gray-300">Enterprise Only</h3>
+  <section
+    class="relative py-15 sm:py-20 bg-gradient-to-b from-[#42389E] to-[#0F1026] text-white overflow-hidden"
+  >
+    <!-- Background image overlay -->
+    <div class="absolute inset-0">
+      <img
+        src="/img/bg-coming.jpg"
+        alt="Background"
+        class="w-full h-full object-cover opacity-30"
+      />
+    </div>
+    <div
+      class="absolute inset-0 bg-gradient-to-b from-[#42389E]/70 to-[#0F1026]/95"
+    ></div>
 
-          <div class="mt-16 max-w-4xl mx-auto bg-white/10 p-6 sm:p-8 rounded-xl border border-white/20">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-              <h4 class="text-2xl font-bold text-left">
-                Be The First To Try Out Our New AI Features.
-              </h4>
-              <form class="w-full md:w-auto flex-shrink-0 flex flex-col sm:flex-row gap-3">
-                <input type="email" placeholder="Enter email address" class="w-full sm:w-80 bg-white/20 border border-white/30 text-white placeholder-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-yellow">
-                <button type="submit" class="bg-brand-yellow text-brand-purple-dark font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-yellow-400 transition duration-300">
-                  Join AI Early Access
-                </button>
-              </form>
-            </div>
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+      <!-- Coming Soon Badge -->
+      <span
+        class="bg-[#F9A71E] text-[#1A1C3D] text-sm sm:text-[0.8rem] font-semibold px-5 py-1 rounded-full shadow-md inline-block"
+      >
+        Coming Soon
+      </span>
+
+      <!-- Heading -->
+      <h2 class="mt-3 text-lg sm:text-[1.8rem] font-medium tracking-tight">
+        DartCodeAI That Actually Changes Flagging
+      </h2>
+
+      <!-- Features Grid -->
+      <div
+        class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[3rem] max-w-5xl mx-auto"
+      >
+        <!-- Feature 1 -->
+        <div
+          class="bg-white/5 backdrop-blur- border border-white/20 rounded-lg px-6 py-3 text-left hover:bg-white/20 transition-all duration-300 flex flex-col"
+        >
+          <div
+            class="bg-white/20 w-12 h-12 flex items-center justify-center rounded-lg mb-4 mx-auto"
+          >
+            <img src="/img/icon1.png" alt="icon1" />
           </div>
+          <h3 class="text-md font-bold mx-auto">
+            AutoFlag AI
+            <span class="text-gray-300">(LLM-Assisted Flag Creation)</span>
+          </h3>
+          <p class="mt-2 text-gray-300 text-sm leading-relaxed text-center">
+            Create new flags just by typing what you need. The AI names it, sets
+            rules, and configures targeting for you.
+          </p>
         </div>
-      </section>
+
+        <!-- Feature 2 -->
+        <div
+          class="bg-white/5 backdrop-blur- border border-white/20 rounded-lg px-6 py-3 text-left hover:bg-white/20 transition-all duration-300 flex flex-col"
+        >
+          <div
+            class="bg-white/20 w-12 h-12 flex items-center justify-center rounded-lg mb-4 mx-auto"
+          >
+            <img src="/img/icon2.png" alt="icon1" />
+          </div>
+          <h3 class="text-md font-bold mx-auto">
+            SmartRamp AI
+            <span class="text-gray-300">(AI-Driven Rollout Optimization)</span>
+          </h3>
+          <p class="mt-2 text-gray-300 text-sm leading-relaxed text-center">
+            Rollouts that adjust themselves. AI expands, pauses, or rolls back
+            based on real-time metrics.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div
+          class="bg-white/5 backdrop-blur- border border-white/20 rounded-lg px-6 py-3 text-left hover:bg-white/20 transition-all duration-300 flex flex-col"
+        >
+          <div
+            class="bg-white/20 w-12 h-12 flex items-center justify-center rounded-lg mb-4 mx-auto"
+          >
+            <img src="/img/icon3.png" alt="icon1" />
+          </div>
+          <h3 class="text-md font-bold mx-auto">
+            ExplainFlags AI
+            <span class="text-gray-300">(LLM Root-Cause + Insights)</span>
+          </h3>
+          <p class="mt-2 text-gray-300 text-sm leading-relaxed text-center">
+            Understand issues instantly with AI-generated, plain-language
+            insights tied to your flags.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div
+          class="bg-white/5 backdrop-blur- border border-white/20 rounded-lg px-6 py-3 text-left hover:bg-white/20 transition-all duration-300 flex flex-col"
+        >
+          <div
+            class="bg-white/20 w-12 h-12 flex items-center justify-center rounded-lg mb-4 mx-auto"
+          >
+            <img src="/img/icon4.png" alt="icon1" />
+          </div>
+          <h3 class="text-md font-bold mx-auto">
+            AutoSegment AI
+            <span class="text-gray-300">(Behavioral Segmentation)</span>
+          </h3>
+          <p class="mt-2 text-gray-300 text-sm leading-relaxed text-center">
+            Target the right users automatically. AI builds segments from live
+            behavior—no manual rules.
+          </p>
+        </div>
+      </div>
+
+      <!-- Enterprise Only -->
+      <h3 class="mt-10 text-2xl sm:text-3xl font-semibold text-[#F7B500]">
+        Enterprise Only
+      </h3>
+
+      <!-- CTA Form -->
+      <div
+        class="mt-10 max-w-5xl mx-auto bg-white/10 border border-white/20 rounded-lg p-3"
+      >
+        <div
+          class="flex flex-col sm:flex-row justify-between items-center gap-4"
+        >
+          <h4 class="text-sm sm:text-md font-semibold">
+            <span class="text-[#F7B500] font-bold">Be The First</span> To Try
+            Out Our New AI Features.
+          </h4>
+          <form
+            class="flex items-center bg-transparent border border-white/20 rounded-lg overflow-hidden p-1"
+          >
+            <input
+              type="email"
+              placeholder="Enter email address"
+              class="flex-1 bg-transparent text-white placeholder-gray-300 px-4 py-1 focus:outline-none"
+            />
+            <button
+              type="submit"
+              class="bg-[#F7B500] text-[#1A1C3D] font-semibold px-3 py-2 hover:bg-[#FFBF33] transition-colors duration-200 rounded-lg"
+            >
+              Join AI Early Access
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>

@@ -1,23 +1,47 @@
 <template>
-    <section class="py-16 sm:py-24 bg-brand-purple text-white relative">
-        <!-- Background image overlay -->
-        <div class="absolute inset-0 bg-black opacity-50"></div>
-        
-        <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
-          <h2 class="text-4xl sm:text-5xl font-extrabold">
-            Launch Features Confidently With AI Driven Feature Flags
-          </h2>
-          <p class="mt-6 text-xl sm:text-2xl text-gray-200 max-w-2xl mx-auto">
-            Start for free, scale as your team grows
-          </p>
-          <div class="mt-12 flex flex-col sm:flex-row justify-center gap-4">
-            <a href="#" class="bg-brand-yellow text-brand-purple-dark font-bold py-4 px-8 rounded-lg shadow-lg text-lg hover:bg-yellow-400 transition duration-300">
-              Start for $0/mo
-            </a>
-            <a href="#" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-white hover:text-brand-purple transition duration-300">
-              Join AI Early Access
-            </a>
-          </div>
+  <section class="flex justify-center items-center my-20 px-4">
+    <div
+      class="relative w-full max-w-4xl rounded-2xl bg-gradient-to-b from-[#42389E] to-[#0F1026] text-white py-10 shadow-xl overflow-hidden"
+    >
+      <!-- Background grid image -->
+      <div class="absolute inset-0 z-20 ">
+        <img
+          src="/img/bgf.png"
+          alt="grid background"
+          class="w-full h-full object-cover opacity-20"
+        />
+      </div>
+
+      <!-- Gradient overlay (optional for richer tone) -->
+      <div class="absolute inset-0 bg-gradient-to-b from-[#42389E]/80 to-[#0F1026]/90"></div>
+
+      <!-- Content -->
+      <div class="relative text-center z-10 px-6">
+        <h2 class="text-2xl font-bold leading-snug">
+          Launch Features Confidently With AI<br class="hidden sm:block" />
+          Driven Feature Flags
+        </h2>
+        <p class="mt-4 text-lg text-gray-300">
+          Start for free, scale as your team grows
+        </p>
+
+        <!-- Buttons -->
+        <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            href="#"
+            class="bg-[#F7B500] text-[#1A1C3D] font-semibold py-3 px-8 rounded-md shadow-md text-sm hover:bg-[#FFCA2C] transition"
+          >
+            Start for $1/mo
+          </a>
+          <a
+            href="#"
+            class="border border-[#F7B500] text-[#F7B500] font-semibold py-3 px-8 rounded-md text-sm hover:bg-[#F7B500] hover:text-[#1A1C3D] transition"
+          >
+            Join AI Early Access
+          </a>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 </template>
+
